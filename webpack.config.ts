@@ -40,7 +40,7 @@ export default (env: { standalone?: boolean } = {}, { mode }) => ({
     libraryTarget: 'umd',
     globalObject: 'this',
   },
-  devtool: 'source-map',
+  devtool: false,
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
@@ -127,7 +127,6 @@ export default (env: { standalone?: boolean } = {}, { mode }) => ({
           },
         },
       },
-      { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
     ],
   },
   plugins: [
