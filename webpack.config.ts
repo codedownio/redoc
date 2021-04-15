@@ -55,7 +55,7 @@ export default (env: { standalone?: boolean } = {}, { mode }) => ({
   performance: false,
 
   optimization: {
-    minimize: !!env.standalone,
+    minimize: false,
   },
 
   externals: env.standalone
