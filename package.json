@@ -156,6 +156,7 @@
     "slugify": "^1.4.4",
     "stickyfill": "^1.1.1",
     "swagger2openapi": "^6.2.1",
+    "to-arraybuffer": "^1.0.1",
     "tslib": "^2.0.0",
     "url-template": "^2.0.8"
   },
