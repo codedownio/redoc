@@ -23,6 +23,7 @@ node_modules
 
 lib/
 stats.json
+bundles/
 cypress/
 typings/*
 !typings/styled-patch.d.ts
